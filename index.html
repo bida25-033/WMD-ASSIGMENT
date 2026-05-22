@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Hair Palour | Premium Wigs & Hair Extensions</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="logo">THE HAIR PALOUR</div>
+        <nav class="main-nav">
+            <a href="index.html" class="active">Home</a>
+            <a href="blog.html">Blog</a>
+            <a href="shop.html">Shop</a>
+            <a href="cart.html" class="cart-nav-link" title="Cart">Cart <span class="cart-badge" data-cart-badge>0</span></a>
+
+            <a href="about.html">About</a>
+
+            <a href="contact.html">Contact</a>
+        </nav>
+        <div class="header-icons">
+            <a href="#" title="Search"></a>
+            <a href="#" title="Account"></a>
+            <a href="cart.html" title="Cart"><span class="cart-badge" data-cart-badge>0</span></a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Find Your Perfect Style</h1>
+            <p>Premium HD Lace & Human Hair Wigs</p>
+            <a href="shop.html" class="btn-primary">Shop Now</a>
+        </div>
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?w=600&h=400&fit=crop" alt="Model wearing luxury lace wig">
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <div class="main-container">
+        <!-- Sidebar Filters -->
+        <aside class="sidebar">
+            <div class="filter-box">
+                <h3>Filters</h3>
+            </div>
+            <div class="filter-box">
+                <h3>Category</h3>
+                <label class="filter-option">
+                    <input type="checkbox"> Human Hair
+                </label>
+                <label class="filter-option">
+                    <input type="checkbox"> Synthetic
+                </label>
+                <label class="filter-option">
+                    <input type="checkbox"> Human Blend
+                </label>
+            </div>
+            <div class="filter-box">
+                <h3>Length</h3>
+                <label class="filter-option">
+                    <input type="checkbox"> Short (8-12")
+                </label>
+                <label class="filter-option">
+                    <input type="checkbox"> Medium (14-18")
+                </label>
+                <label class="filter-option">
+                    <input type="checkbox"> Long (20-30")
+                </label>
+            </div>
+            <div class="filter-box">
+                <h3>Color</h3>
+                <label class="filter-option">
+                    <input type="checkbox"> Natural Black
+                </label>
+                <label class="filter-option">
+                    <input type="checkbox"> Blonde
+                </label>
+                <label class="filter-option">
+                    <input type="checkbox"> Brown
+                </label>
+            </div>
+        </aside>
+
+        <!-- Product Grid -->
+        <div class="product-grid">
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/human_hair.webp" alt="HD Lace Frontal Wig - Body Wave">
+                </div>
+                <div class="product-info">
+                    <h3>HD Lace Frontal Wig - Body Wave</h3>
+                    <p class="product-price">P650.00</p>
+                    <button class="btn-add-cart" onclick="addToCart('HD Lace Frontal Wig - Body Wave', 650)">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/blonde.webp" alt="Straight Blonde Bob 12\">
+                </div>
+                <div class="product-info">
+                    <h3>Straight Blonde Bob 12"</h3>
+                    <p class="product-price">P400.00</p>
+                    <button class="btn-add-cart" onclick="addToCart('Straight Blonde Bob 12', 400)">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/deep_wave.webp" alt="Deep Wave 4x4 Closure">
+                </div>
+                <div class="product-info">
+                    <h3>Deep Wave 4x4 Closure</h3>
+                    <p class="product-price">P500.00</p>
+                    <button class="btn-add-cart" onclick="addToCart('Deep Wave 4x4 Closure', 500)">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/spicy hair.webp" alt="Ginger Spice Curly Wig">
+                </div>
+                <div class="product-info">
+                    <h3>Ginger Spice Curly Wig</h3>
+                    <p class="product-price">P600.00</p>
+                    <button class="btn-add-cart" onclick="addToCart('Ginger Spice Curly Wig', 600)">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Shop</h4>
+                <a href="shop.html">All Wigs</a>
+                <a href="shop.html">Human Hair</a>
+                <a href="shop.html">Synthetic</a>
+                <a href="shop.html">Accessories</a>
+            </div>
+            <div class="footer-section">
+                <h4>Customer Care</h4>
+                <a href="contact.html">Contact Us</a>
+                <a href="faq.html">FAQs</a>
+                <a href="terms.html">Shipping & Returns</a>
+                <a href="terms.html">Privacy Policy</a>
+            </div>
+            <div class="footer-section">
+                <h4>About</h4>
+                <a href="about.html">Our Story</a>
+                <a href="blog.html">Blog</a>
+                <a href="terms.html">Terms of Service</a>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="footer-social">
+                    <a href="#" title="Instagram"></a>
+                    <a href="#" title="TikTok"></a>
+                    <a href="#" title="Facebook"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 THE HAIR PALOUR. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Use shared cart logic -->
+    <script src="main.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+
+
